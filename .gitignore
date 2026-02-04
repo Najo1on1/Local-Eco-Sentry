@@ -1,0 +1,15 @@
+# Virtual Environments
+pipeline_a_vision_compute/ollama/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Project temporary files
+pipeline_a_vision_compute/current_frame.jpg
+pipeline_c_drone_hud/temp_hud_frame.jpg
+
+# OS files
+.DS_Store

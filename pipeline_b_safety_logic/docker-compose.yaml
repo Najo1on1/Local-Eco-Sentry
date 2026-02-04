@@ -1,0 +1,9 @@
+services:
+  safety_graph:
+    image: neo4j:community
+    container_name: safety_officer_node
+    ports:
+      - "7474:7474" # HTTP Interface
+      - "7687:7687" # Bolt Protocol (for Python)
+    environment:
+      - NEO4J_AUTH=neo4j/password123
